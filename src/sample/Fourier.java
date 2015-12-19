@@ -12,7 +12,7 @@ public class Fourier
     public static double dx;
     private double sum=0;
 
-    //aaaaa
+    //JITAKU PC TEST
     static{
         dx = (b - a) / n;
     }
