@@ -12,7 +12,6 @@ public class Fourier
     public static double dx;
     private double sum=0;
 
-    //JITAKU PC TEST
     static{
         dx = (b - a) / n;
     }
@@ -31,6 +30,7 @@ public class Fourier
     public static double F(double x)
     {
         double fx=sin(6*PI*f*x)+sin(2*PI*f*x+2*PI*pd);
+
         //double fx=x;
         return (fx);
     }
