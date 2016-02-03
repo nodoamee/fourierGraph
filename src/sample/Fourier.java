@@ -43,7 +43,7 @@ public class Fourier
         }
         return (s/PI);
     }
-
+    //test
     private static double bn(int n)
     {
         double s=0;
